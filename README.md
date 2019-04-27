@@ -13,9 +13,13 @@ I've added some features I think are needed
 example usage:
 
 MakeDocs -help (or -h)
+
 MakeDocs -version
+
 MakeDocs -exclude=Module1.mod,Module2.mod
+
 MakeDocs -extern=file_path.txt (to add new commands to highlight)
+
 
 (C) copyrights
 
