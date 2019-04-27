@@ -10,7 +10,12 @@ I've added some features I think are needed
 3. support for external command to be highlighted (without messing with source code)
 4. support for some CMD commands like -help or -version
 
+example usage:
 
+MakeDocs -help (or -h)
+MakeDocs -version
+MakeDocs -exclude=Module1.mod,Module2.mod
+MakeDocs -extern=file_path.txt (to add new commands to highlight)
 
 (C) copyrights
 
